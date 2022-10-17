@@ -1,16 +1,12 @@
+import CompOne from './CompOne/CompOne';
+import CompTwo from './CompTwo/CompTwo';
+import CompThree from './CompThree/CompThree';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <CompOne>
+      <CompTwo />
+      <CompThree />
+    </CompOne>
   );
 };
